@@ -10,8 +10,8 @@
         "target": "ESNext"
     },
     "include": [
+        "**/*.js",
         "**/*.ts",
         "**/*.d.ts",
-        "**/*.js"
     ]
 }
