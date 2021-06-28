@@ -1,16 +1,15 @@
 {
   "name": "@kidsloop/eslint-config",
   "version": "1.0.0",
-  "description": "shareable eslint configs used across kidsloop projects",
+  "description": "eslint configs used across kidsloop projects",
   "main": "index.js",
   "author": "KidsLoop",
   "license": "ISC",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.0.0",
-    "@typescript-eslint/parser": "^4.0.0",
-    "eslint": "^7.0.0"
+    "eslint": "^7.0.0",
+    "typescript": "^4.0.0"
   },
-  "dependencies": {
+  "devDependencies": {
     "@typescript-eslint/eslint-plugin": "4.28.0",
     "@typescript-eslint/parser": "4.28.0",
     "eslint": "7.29.0",
@@ -19,6 +18,8 @@
     "eslint-plugin-putout": "8.0.1",
     "eslint-plugin-react": "7.24.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
-    "putout": "18.3.0"
+    "putout": "18.3.0",
+    "typescript": "4.3.4",
+    "@types/node": "15.12.5"
   }
 }

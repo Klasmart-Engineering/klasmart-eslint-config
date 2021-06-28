@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "module": "ESNext",
+        "noEmit": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "target": "ESNext"
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.d.ts",
+        "**/*.js"
+    ]
+}

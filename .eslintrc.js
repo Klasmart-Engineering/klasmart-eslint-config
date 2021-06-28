@@ -1,7 +1,6 @@
 module.exports = {
     env: {
         es2020: true,
-        node: true,
     },
     rules: {
         indent: [ `error`, 4 ],
@@ -34,8 +33,6 @@ module.exports = {
         ],
         "comma-spacing": `off`, // turned off b/c '@typescript-eslint/comma-spacing' is enabled
         "eol-last": [ `error`, `always` ],
-        "function-call-argument-newline": [ `error`, `never` ],
-        "function-paren-newline": [ `error`, `never` ],
         "no-trailing-spaces": `error`,
         "no-multiple-empty-lines": [
             `error`,
@@ -68,8 +65,5 @@ module.exports = {
         ],
         "object-property-newline": `error`,
         "quote-props": [ `error`, `as-needed` ],
-        "no-warning-comments": 1,
-        "no-console": process.env.NODE_ENV === `production` ? `error` : `off`,
-        "space-before-function-paren": [ `error`, `always` ],
     },
 };

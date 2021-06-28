@@ -2,8 +2,15 @@ module.exports = {
     env: {
         browser: true,
     },
-    extends: [ `@kidsloop/eslint-config`, `plugin:react/recommended` ],
-    parser: `@typescript-eslint/parser`,
+    extends: [ `eslint-config-kidsloop`, `plugin:react/recommended` ],
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true,
+        },
+        ecmaVersion: 12,
+        sourceType: `module`,
+        project: `react.tsconfig.json`,
+    },
     plugins: [ `react` ],
     rules: {
         "react/react-in-jsx-scope": `off`,
