@@ -9,7 +9,7 @@ module.exports = {
         },
         ecmaVersion: 12,
         sourceType: `module`,
-        project: `react.tsconfig.json`,
+        project: `tsconfig.react.json`,
     },
     plugins: [ `react` ],
     rules: {
