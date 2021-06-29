@@ -15,7 +15,7 @@ In your local `eslintrc.js` config file:
 ```javascript
 module.exports = {
   ...
-  extends: [ `eslint-config-kidsloop` ],
+  extends: [ `@kidsloop/eslint-config` ],
   ...
 }
 ```
@@ -24,7 +24,7 @@ For React projects, use instead:
 ```javascript
 module.exports = {
   ...
-  extends: [ `eslint-config-kidsloop/react` ],
+  extends: [ `@kidsloop/eslint-config/react` ],
   ...
 }
 ```

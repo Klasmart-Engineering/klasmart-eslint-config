@@ -2,7 +2,7 @@ module.exports = {
     env: {
         browser: true,
     },
-    extends: [ `eslint-config-kidsloop`, `plugin:react/recommended` ],
+    extends: [ `@kidsloop/eslint-config`, `plugin:react/recommended` ],
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
