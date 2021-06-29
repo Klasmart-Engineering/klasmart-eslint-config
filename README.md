@@ -4,8 +4,17 @@
 
 ## Installation
 
-```bash
-bitbucket:calmisland/eslint-config-kidsloop#GIT_TAG
+Add the following dependencies to the projects `package.json`:
+```json
+{
+  "devDependencies": {
+    ...
+    "@kidsloop/eslint-config": "bitbucket:calmisland/eslint-config-kidsloop#1.0.0",
+    ...
+    "eslint": "^7.0.0",
+    ...
+  }
+}
 ```
 
 ## Usage
