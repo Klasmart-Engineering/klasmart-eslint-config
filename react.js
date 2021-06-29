@@ -4,6 +4,11 @@ module.exports = {
     },
     extends: [ `@kidsloop/eslint-config`, `plugin:react/recommended` ],
     plugins: [ `react` ],
+    settings: {
+        react: {
+            version: `detect`,
+        },
+    },
     rules: {
         "react/react-in-jsx-scope": `off`,
         "react/jsx-max-props-per-line": 2,
