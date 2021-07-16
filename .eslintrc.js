@@ -65,5 +65,6 @@ module.exports = {
         ],
         "object-property-newline": `error`,
         "quote-props": [ `error`, `as-needed` ],
+        quotes: [ `error`, `backtick` ],
     },
 };

@@ -141,7 +141,12 @@ module.exports = {
                 format: [ `camelCase` ],
             },
         ],
-        "@typescript-eslint/no-empty-interface": `warn`,
+        "@typescript-eslint/no-empty-interface": [
+            `warn`,
+            {
+                allowSingleExtends: true,
+            },
+        ],
         "@typescript-eslint/no-unused-vars": 1,
         "@typescript-eslint/no-var-requires": `off`,
         "@typescript-eslint/quotes": [ `error`, `backtick` ],
