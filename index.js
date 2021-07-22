@@ -121,7 +121,11 @@ module.exports = {
             {
                 selector: `variable`,
                 modifiers: [ `destructured` ],
-                format: [ `camelCase`, `snake_case` ],
+                format: [
+                    `camelCase`,
+                    `snake_case`,
+                    `PascalCase`,
+                ],
             },
             {
                 selector: `enumMember`,
