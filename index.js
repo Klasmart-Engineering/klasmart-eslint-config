@@ -49,7 +49,7 @@ module.exports = {
         "eol-last": [ `error`, `always` ],
         "function-call-argument-newline": [ `error`, `never` ],
         "function-paren-newline": [ `error`, `never` ],
-        "no-trailing-spaces": `error`,
+        "no-console": process.env.NODE_ENV === `production` ? `error` : `off`,
         "no-multiple-empty-lines": [
             `error`,
             {
@@ -57,6 +57,9 @@ module.exports = {
                 maxEOF: 0,
             },
         ],
+        "no-return-await": `error`,
+        "no-trailing-spaces": `error`,
+        "no-warning-comments": 1,
         "object-curly-spacing": [ `error`, `always` ],
         "object-curly-newline": [
             `error`,
@@ -81,9 +84,9 @@ module.exports = {
         ],
         "object-property-newline": `error`,
         "quote-props": [ `error`, `as-needed` ],
-        "no-warning-comments": 1,
-        "no-console": process.env.NODE_ENV === `production` ? `error` : `off`,
+        "require-await": `error`,
         "space-before-function-paren": [ `error`, `always` ],
+        "@typescript-eslint/await-thenable": `error`,
         "@typescript-eslint/ban-types": [
             `error`,
             {
