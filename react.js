@@ -3,7 +3,7 @@ module.exports = {
         browser: true,
     },
     extends: [ `@kidsloop/eslint-config`, `plugin:react/recommended` ],
-    plugins: [ `react` ],
+    plugins: [ `react`, `react-hooks` ],
     settings: {
         react: {
             version: `detect`,
@@ -24,5 +24,7 @@ module.exports = {
                 reservedFirst: [ `key`, `ref` ],
             },
         ],
+        "react-hooks/rules-of-hooks": `error`,
+        "react-hooks/exhaustive-deps": `warn`,
     },
 };
