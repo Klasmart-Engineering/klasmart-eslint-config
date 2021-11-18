@@ -1,6 +1,6 @@
 {
   "name": "@kidsloop/eslint-config",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "eslint configs used across kidsloop projects",
   "main": "index.js",
   "author": "KidsLoop",
