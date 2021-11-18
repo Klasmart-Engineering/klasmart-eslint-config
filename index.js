@@ -47,6 +47,7 @@ module.exports = {
         ],
         "comma-spacing": `off`, // turned off b/c '@typescript-eslint/comma-spacing' is enabled
         "eol-last": [ `error`, `always` ],
+        eqeqeq: `error`,
         "function-call-argument-newline": [ `error`, `never` ],
         "function-paren-newline": [ `error`, `never` ],
         "no-console": process.env.NODE_ENV === `production` ? `error` : `off`,
@@ -177,6 +178,7 @@ module.exports = {
                 ignoreRestArgs: false,
             },
         ],
+        "@typescript-eslint/type-annotation-spacing": `error`,
         "putout/multiple-properties-destructuring": [
             `error`,
             {
