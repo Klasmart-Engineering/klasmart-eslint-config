@@ -3,7 +3,11 @@ module.exports = {
         browser: true,
     },
     extends: [ `@kidsloop/eslint-config`, `plugin:react/recommended` ],
-    plugins: [ `react`, `react-hooks` ],
+    plugins: [
+        `react`,
+        `react-hooks`,
+        `jsx-a11y`,
+    ],
     settings: {
         react: {
             version: `detect`,
