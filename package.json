@@ -1,5 +1,5 @@
 {
-  "name": "@KL-Engineering/eslint-config",
+  "name": "@kl-engineering/eslint-config",
   "version": "1.4.1",
   "description": "eslint configs used across kidsloop projects",
   "main": "index.js",

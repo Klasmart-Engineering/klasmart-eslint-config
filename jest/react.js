@@ -2,7 +2,7 @@ module.exports = {
     env: {
         browser: true,
     },
-    extends: [ `@kidsloop/eslint-config/jest`, `plugin:testing-library/react` ],
+    extends: [ `@kl-engineering/eslint-config/jest`, `plugin:testing-library/react` ],
     rules: {
         "testing-library/no-unnecessary-act": [
             `error`,

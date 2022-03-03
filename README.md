@@ -9,7 +9,7 @@ Add the following dependencies to the projects `package.json`:
 {
   "devDependencies": {
     ...
-    "@kidsloop/eslint-config": "bitbucket:calmisland/eslint-config-kidsloop#1.0.0",
+    "@kl-engineering/eslint-config": "bitbucket:calmisland/eslint-config-kidsloop#1.0.0",
     ...
     "eslint": "^7.0.0",
     ...
@@ -24,7 +24,7 @@ In your local `eslintrc.js` config file:
 ```javascript
 module.exports = {
   ...
-  extends: [ `@kidsloop/eslint-config` ],
+  extends: [ `@kl-engineering/eslint-config` ],
   ...
 }
 ```
@@ -33,7 +33,7 @@ For React projects, use instead:
 ```javascript
 module.exports = {
   ...
-  extends: [ `@kidsloop/eslint-config/react` ],
+  extends: [ `@kl-engineering/eslint-config/react` ],
   ...
 }
 ```

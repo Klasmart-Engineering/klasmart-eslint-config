@@ -2,7 +2,7 @@ module.exports = {
     env: {
         browser: true,
     },
-    extends: [ `@kidsloop/eslint-config`, `plugin:react/recommended` ],
+    extends: [ `@kl-engineering/eslint-config`, `plugin:react/recommended` ],
     plugins: [
         `react`,
         `react-hooks`,
