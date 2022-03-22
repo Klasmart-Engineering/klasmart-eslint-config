@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.3](https://github.com/KL-Engineering/kidsloop-eslint-config/branches/compare/v2.0.3%0Dv2.0.2) (2022-03-22)
+
+
+### 🐛 Bug Fixes
+
+* remove private setting ([c61cfbe](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/c61cfbe6cd599d54cecc0dc436b929521d66cacf))
+
 ### [2.0.2](https://github.com/KL-Engineering/kidsloop-eslint-config/branches/compare/v2.0.2%0Dv2.0.1) (2022-03-22)
 
 
