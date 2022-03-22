@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.2](https://github.com/KL-Engineering/kidsloop-eslint-config/branches/compare/v2.0.2%0Dv2.0.1) (2022-03-22)
+
+
+### ⚙️ Continuous Integrations
+
+* change github actions token ([1aca7bc](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/1aca7bc452b814d607e370eae1692be5a039c8c2))
+
 ### [2.0.1](https://github.com/KL-Engineering/kidsloop-eslint-config/branches/compare/v2.0.1%0Dv2.0.0) (2022-03-22)
 
 
