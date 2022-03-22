@@ -1,5 +1,6 @@
 {
   "name": "@kl-engineering/eslint-config",
+  "private": true,
   "version": "2.0.0",
   "description": "eslint configs used across kidsloop projects",
   "main": "index.js",
@@ -8,7 +9,7 @@
   "scripts": {
     "lint": "eslint .",
     "prepare": "husky install",
-    "release": "standard-version -t ''"
+    "release": "standard-version"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
