@@ -17,7 +17,3 @@ jobs:
     lint:
         needs: [install]
         uses: KL-Engineering/github-action-workflows/.github/workflows/npm-lint.yml@v2.1.0
-
-    build:
-        needs: [install]
-        uses: KL-Engineering/github-action-workflows/.github/workflows/npm-build-upload-package.yml@v2.1.0
