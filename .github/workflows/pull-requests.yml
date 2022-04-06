@@ -6,14 +6,14 @@ on:
 
 jobs:
     install:
-        uses: KL-Engineering/github-action-workflows/.github/workflows/npm-ci.yml@v2.1.0
+        uses: KL-Engineering/github-action-workflows/.github/workflows/npm-ci.yml@v3.0.0
         secrets:
             NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
 
     # test-unit:
     #     needs: [install]
-    #     uses: KL-Engineering/github-action-workflows/.github/workflows/npm-test-jest.yml@v2.1.0
+    #     uses: KL-Engineering/github-action-workflows/.github/workflows/npm-test-jest.yml@v3.0.0
 
     lint:
         needs: [install]
-        uses: KL-Engineering/github-action-workflows/.github/workflows/npm-lint.yml@v2.1.0
+        uses: KL-Engineering/github-action-workflows/.github/workflows/npm-lint.yml@v3.0.0
