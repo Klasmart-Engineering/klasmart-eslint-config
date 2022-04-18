@@ -46,11 +46,15 @@ module.exports = {
             },
         ],
         "comma-spacing": `off`, // turned off b/c '@typescript-eslint/comma-spacing' is enabled
+        "dot-location": [ `error`, `property` ],
         "eol-last": [ `error`, `always` ],
         eqeqeq: `error`,
         "function-call-argument-newline": [ `error`, `never` ],
         "function-paren-newline": [ `error`, `never` ],
+        "key-spacing": [ `error` ],
         "no-console": process.env.NODE_ENV === `production` ? `error` : `off`,
+        "no-dupe-else-if": `error`,
+        "no-lonely-if": `error`,
         "no-multiple-empty-lines": [
             `error`,
             {
@@ -84,9 +88,25 @@ module.exports = {
             },
         ],
         "object-property-newline": `error`,
+        "newline-per-chained-call": [
+            `error`,
+            {
+                ignoreChainWithDepth: 1,
+            },
+        ],
+        "prefer-template": `error`,
         "quote-props": [ `error`, `as-needed` ],
         "require-await": `error`,
+        "semi-spacing": [
+            `error`,
+            {
+                before: false,
+                after: true,
+            },
+        ],
         "space-before-function-paren": [ `error`, `always` ],
+        "template-curly-spacing": `error`,
+        yoda: `error`,
         "@typescript-eslint/await-thenable": `error`,
         "@typescript-eslint/ban-types": [
             `error`,
