@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/KL-Engineering/kidsloop-eslint-config/branches/compare/v2.1.0%0Dv2.0.3) (2022-04-18)
+
+
+### 🐛 Bug Fixes
+
+* remove build from pipeline (#4) ([56a45e2](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/56a45e2fc5a614e42c65d51198bc9188cebbead5))
+
+
+### ✨ Features
+
+* add stricter rules ([7b0e03f](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/7b0e03f9254b27a98484cde3b50ba90793364ca5))
+
+
+### ♻️ Chores
+
+* **npm-config:** remove local override of authToken ([9dd1b5c](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/9dd1b5c3a4b17cd29082b0321c1797a0e7832503))
+* update dependencies ([6e8d96a](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/6e8d96a6e82eeadef1937c0536a4ccde3c518d55))
+
+
+### ⚙️ Continuous Integrations
+
+* add conventional pr title workflow ([fba51dc](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/fba51dcda22c2f6a6f3d09a8338f77b1f4df7984))
+* add workflows ([ef9f5f2](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/ef9f5f2b96d51579c6e9b428d6a6d39bc70d563e))
+* **bump-version:** add release_as parameter ([d72c6c0](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/d72c6c04eef2b95f787ccb337bdbc99cdaf28087))
+* fix to make publishable ([1e03f5f](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/1e03f5ff98c9cc19ced78875c8664a83b5af6e6a))
+* separate pr workflows for meta info and commits ([c8552c0](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/c8552c0378c69b7154def875118ebad47e09d992))
+
 ### [2.0.3](https://github.com/KL-Engineering/kidsloop-eslint-config/branches/compare/v2.0.3%0Dv2.0.2) (2022-03-22)
 
 
