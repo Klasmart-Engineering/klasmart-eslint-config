@@ -12,7 +12,6 @@ module.exports = {
     plugins: [
         `@typescript-eslint`,
         `putout`,
-        `modules-newline`,
         `simple-import-sort`,
         `import`,
     ],
@@ -205,8 +204,6 @@ module.exports = {
                 minProperties: 2,
             },
         ],
-        "modules-newline/import-declaration-newline": `error`,
-        "modules-newline/export-declaration-newline": `error`,
         "simple-import-sort/imports": [
             `error`,
             {
