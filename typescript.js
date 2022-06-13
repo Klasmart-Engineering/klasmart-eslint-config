@@ -83,7 +83,7 @@ module.exports = {
                 allowSingleExtends: true,
             },
         ],
-        "@typescript-eslint/no-unused-vars": 1,
+        "@typescript-eslint/no-unused-vars": `off`,
         "@typescript-eslint/no-var-requires": `off`,
         "@typescript-eslint/quotes": [ `error`, `backtick` ],
         "@typescript-eslint/member-delimiter-style": [

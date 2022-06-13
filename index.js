@@ -8,6 +8,7 @@ module.exports = {
         `putout`,
         `simple-import-sort`,
         `import`,
+        `unused-imports`,
     ],
     rules: {
         indent: [ `error`, 4 ],
@@ -87,6 +88,7 @@ module.exports = {
                 ignoreChainWithDepth: 1,
             },
         ],
+        "no-unused-vars": `off`,
         "prefer-template": `error`,
         "quote-props": [ `error`, `as-needed` ],
         "require-await": `error`,
@@ -116,5 +118,15 @@ module.exports = {
         "import/first": `error`,
         "import/newline-after-import": `error`,
         "import/no-duplicates": `error`,
+        "unused-imports/no-unused-imports": `error`,
+        "unused-imports/no-unused-vars": [
+            `warn`,
+            {
+                vars: `all`,
+                varsIgnorePattern: `^_`,
+                args: `after-used`,
+                argsIgnorePattern: `^_`,
+            },
+        ],
     },
 };
