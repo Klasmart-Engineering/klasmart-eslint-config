@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/KL-Engineering/kidsloop-eslint-config/branches/compare/v3.0.0%0Dv2.1.1) (2022-06-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* break out typescript config to dedicated file
+
+### 📦 Refactor
+
+* break out typescript config to dedicated file ([4870c9d](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/4870c9d216171b36bb37faf72e364ef04db93953))
+
+
+### ✨ Features
+
+* clean up unused imports closes #5 ([15d8ede](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/15d8edeeb829f7e31c798f8ebf24b6a19b76868b))
+
+
+### ♻️ Chores
+
+* bump dependencies ([329d99e](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/329d99ed26d979d128717f7403cdb6273d4448b4))
+* re-add disabled rule for repo config files ([cf0f27e](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/cf0f27efe410f4112ec3cfb2da86ab8eff8cd9c0))
+* remove eslintignore file to allow eslint pipeline to run ([334591a](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/334591a816c948ebd5fbc53e3ec0897a1147a84e))
+
 ### [2.1.1](https://github.com/KL-Engineering/kidsloop-eslint-config/branches/compare/v2.1.1%0Dv2.1.0) (2022-06-10)
 
 
