@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/KL-Engineering/kidsloop-eslint-config/branches/compare/v3.0.1%0Dv3.0.0) (2022-06-13)
+
+
+### 🐛 Bug Fixes
+
+* css in js selector object property names ([ea6496f](https://github.com/KL-Engineering/kidsloop-eslint-config/commits/ea6496fdd1a32256b553dfe774950fb0f76fef59))
+
 ## [3.0.0](https://github.com/KL-Engineering/kidsloop-eslint-config/branches/compare/v3.0.0%0Dv2.1.1) (2022-06-13)
 
 
