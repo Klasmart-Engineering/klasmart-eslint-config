@@ -76,6 +76,11 @@ module.exports = {
                 selector: `memberLike`,
                 format: [ `camelCase` ],
             },
+            {
+                selector: `objectLiteralProperty`,
+                modifiers: [ `requiresQuotes` ],
+                format: null,
+            },
         ],
         "@typescript-eslint/no-empty-interface": [
             `warn`,
