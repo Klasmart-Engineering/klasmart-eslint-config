@@ -1,6 +1,6 @@
 {
-  "name": "@kl-engineering/eslint-config",
-  "version": "2.1.0",
+  "name": "@klamart-engineering/eslint-config",
+  "version": "2.1.0-ks",
   "description": "eslint configs used across kidsloop projects",
   "main": "index.js",
   "author": "KidsLoop",
@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KL-Engineering/kidsloop-eslint-config.git"
+    "url": "git+https://github.com/Klasmart-Engineering/kidsloop-eslint-config.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
